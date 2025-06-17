@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import './PromptEvaluator.css';
+import './styles/PromptEvaluator.css';
 
 const PromptEvaluator: React.FC = () => {
   const [promptInput, setPromptInput] = useState('');
